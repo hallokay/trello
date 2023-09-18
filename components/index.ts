@@ -1,3 +1,3 @@
 import Header from "./Header";
-
-export { Header }
+import Board from "./Board";
+export { Header, Board }

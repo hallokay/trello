@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Header } from '@/components'
+import { Header, Board } from '@/components'
 export default function Home() {
   return (
     <main>
@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
 
       {/* Board */}
-      <h2>trello</h2>
+      <Board />
     </main>
   )
 }
